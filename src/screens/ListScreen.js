@@ -31,7 +31,7 @@ const ListScreen = () => {
             keyExtractor={friend => friend.name}
             data={friends}
             renderItem={({ item }) => {
-                return <Text style={styles.textLine}>{item.age}</Text>
+                return <Text style={styles.textLine}>{item.name} - {item.age}</Text>
             }} />
     )
 }
