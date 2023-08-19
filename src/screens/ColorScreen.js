@@ -9,7 +9,6 @@ const ColorScreen = () => {
             <Button
                 title="Add a Color"
                 onPress={() => {
-                    console.log(colors)
                     setColors([...colors, randomRgb()])
                 }}
             />
